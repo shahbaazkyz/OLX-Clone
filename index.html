@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+  <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="cards.css">
+  <!-- <link rel="stylesheet" href="menu.css"> -->
+  <title>OLX</title>
+</head>
+
+<body>
+
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light p-0 shadow-sm navmobile">
+
+
+
+    <div class="container">
+
+      <a class="navbar-brand" href="#"><img src="image/logo.svg" alt="" class="logo" /></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 mt-2">
+          <li class="nav-item" id="pakistan">
+            <div class="input-group">
+              <span class="form-control border-0" data-bs-toggle="dropdown" id="
+                    
+                    
+                    "><img src="image/search-icon.svg" alt="" width="30px" height="25px" /></span>
+              <input type="text" class="border-0" id="searchbox" data-bs-toggle="dropdown"
+                aria-label="Text input with segmented dropdown button" placeholder="Pakistan" />
+
+              <button type="button" class="btn  border-0 noShadow selectdiv " data-bs-toggle="dropdown"
+                aria-expanded="false"></button>
+              <ul class="dropdown-menu dropdown-menu-end w-100">
+                <li><a class="dropdown-item" href="#">Location</a></li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li><a class="dropdown-item" href="#">Pakistan</a></li>
+                <li><a class="dropdown-item" href="#">Iran </a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Afghanistan</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">China</a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          &nbsp; &nbsp;
+          <li class="nav-item navitem2">
+            <div class="input-group mb-3">
+              <input type="text" class="form-control noShadow" id="searchbtn"
+                placeholder="Find Cars, Mobile Phones and more..." aria-label="Recipient's username"
+                aria-describedby="button-addon2" />
+              <button class="btn noShadow" type="button" id="button-addon2">
+                <img src="image/search-icon.svg" alt="" class="svgWhite" />
+              </button>
+            </div>
+          </li>
+          <li class="onMobile extra">Popular Categories</li>
+          <li class="onMobile"><i class="fa fa-mobile" aria-hidden="true"></i>
+            Mobiles</li>
+          <li class="onMobile"> <i class="fa fa-car" aria-hidden="true"></i>
+            Vehicles</li>
+          <li class="onMobile"> <i class="fas fa-bullhorn"></i>Property for Sale</li>
+          <li class="onMobile"><i class="fas fa-building"></i>Property for Rent</li>
+        </ul>
+      </div>
+      <a href="#" class="login">Login</a>
+      <ul class="ghyb">
+        <li class="nav-item">
+          <a href="" class="nav-link"><button class="btn sell-btn sell">
+              <i class="fas fa-plus plus-icon"></i>&nbsp;SELL
+            </button></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- 2nd Nav -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white  pt-0 p-0 secondnav">
+    <div class="container">
+      <div class="dropD">
+        <button class="dropbtn">ALL CATEGORIES</button>
+        <div class="dropdown-content">
+          <ul>
+            <li><strong>Vehicles</strong></li>
+
+            <li>Cars</li>
+
+            <li>Cars on Installement</li>
+            <li>Car accesories</li>
+            <li>Spare parts</li>
+            <li>Buses, van & trucks</li>
+            <li>Rickshaw & chingchi</li>
+            <li>Other vehicles</li>
+            <li>Boats</li>
+            <li>Tractors and trailers </li>
+          </ul>
+          <ul>
+            <li><strong>Animals</strong></li>
+            <li>Fish & Aqariums</li>
+            <li>Birds</li>
+            <li>Hens & aseel</li>
+            <li>Cats</li>
+            <li>Dogs</li>
+            <li>Livestock</li>
+            <li>Horses</li>
+            <li>Pet Food & Accessories</li>
+            <li>Other Animals</li>
+          </ul>
+
+          <ul>
+            <li><strong>Fashion & Beauty</strong></li>
+            <li>Accesories</li>
+            <li>Clothes</li>
+            <li>Footwear</li>
+            <li>Jewellery</li>
+            <li>Make Up</li>
+            <li>Skin & Hair</li>
+            <li>Watches</li>
+            <li>Wedding </li>
+            <li>Lawn & Pret</li>
+            <li>Couture</li>
+            <li>Other Fashion</li>
+          </ul>
+          <ul>
+            <li><strong>Services</strong></li>
+            <li>Education & Classes</li>
+            <li>Travel & Visa</li>
+            <li>Car Rental</li>
+            <li>Drivers & Taxi</li>
+            <li>Web Development</li>
+            <li>Other Services</li>
+            <li>Electroncis * Computer Repair</li>
+            <li>Event Services</li>
+            <li>Health & Beauty</li>
+          </ul>
+
+          <ul>
+            <li><strong>Mobiles</strong></li>
+            <li>Tablets</li>
+            <li>Accessories</li>
+            <li>Mobile Phones</li>
+          </ul>
+
+          <ul>
+            <li><strong>Furniture & Home Decor</strong></li>
+            <li>Sofa & chirs</li>
+            <li>Beds & Wardrobes</li>
+            <li>Home Decoration</li>
+            <li>Tables & Dinings</li>
+            <li>Garden & Outdoor</li>
+            <li>Painting & Mirrors</li>
+            <li>Rugs & Carpets</li>
+            <li>Curtains</li>
+            <li>Office Furniture</li>
+          </ul>
+
+          <ul>
+            <li><strong>Property for Rent</strong></li>
+            <li>Houses</li>
+            <li>Apartments & Flats</li>
+            <li>Portions & Floors</li>
+            <li>Shops - Offices - Commercial Space</li>
+            <li>Rooms</li>
+            <li>Roommates & Paying Guests</li>
+            <li>Vacation Rentals - Guest Houses</li>
+          </ul>
+
+
+          <ul>
+
+            <li><strong>Books & Magazines </strong></li>
+            <li>Musical Instructions</li>
+            <li>Musical Instruments</li>
+            <li>Sports Equipment</li>
+            <li>Gym & Fitness</li>
+          </ul>
+          <ul>
+            <li><strong>Kids </strong></li>
+            <li>Kids Furniture</li>
+            <li>Toys</li>
+            <li>Prams & Walkers</li>
+            <li>Swings & Slides</li>
+            <li>Kids bikes</li>
+            <li>Kids Accessories</li>
+          </ul>
+
+
+
+        </div>
+      </div>
+
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="#" class="nav-link link paddings ">Mobile Phones</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link link paddings ">Cars</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link lin paddings">Motorcycles</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link link paddings ">Houses</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link link paddings">TV-Video-Audio</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link link paddings">Tablets</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link link paddings">Land & Plots</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <img src="image/hero_bg_pk1.jpg" alt="" class="bg-hero">
+
+  <img src="image/add1.PNG" alt="" class="add">
+  <div class="container">
+
+    <div class="row pt-5">
+      <h6 class="display-6">Fresh Recommendations</h6>
+      <div class="col-sm-4 col-md-3 col-lg-3 pt-4">
+        <div class="card">
+          <div class="card-body">
+            <figure class="figure tag tag-featured">
+
+            </figure>
+            <img src="image/cards images/image (35).jpg" alt="">
+            <div class="borderLeft padd-left">
+              <h4>Rs 49,500</h4>
+              <p>Lorem ipsum dolor sit am.</p>
+              <p class="last">
+                Mar 23
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-md-3 col-lg-3 pt-4 ">
+        <div class="card">
+          <div class="card-body">
+            <figure class="figure tag tag-featured">
+
+            </figure>
+            <img src="image/cards images/image (12).jpg" alt="">
+            <div class="borderLeft padd-left">
+              <h4>Rs 49,500</h4>
+              <p>Lorem ipsum dolor sit am.</p>
+              <p class="last">
+                Mar 23
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-md-3 col-lg-3 pt-4">
+        <div class="card">
+          <div class="card-body">
+            <figure class="figure tag tag-featured">
+
+            </figure>
+            <img src="image/cards images/image (13).jpg" alt="">
+            <div class="borderLeft padd-left">
+              <h4>Rs 49,500</h4>
+              <p>Lorem ipsum dolor sit am.</p>
+              <p class="last">
+                Mar 23
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-md-3 col-lg-3 pt-4">
+        <div class="card">
+          <div class="card-body">
+            <figure class="figure tag tag-featured">
+
+            </figure>
+            <img src="image/cards images/image (15).jpg" alt="">
+            <div class="borderLeft padd-left">
+              <h4>Rs 49,500</h4>
+              <p>Lorem ipsum dolor sit am.</p>
+              <p class="last">
+                Mar 23
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-md-3 col-lg-3 pt-4 ">
+        <div class="card">
+          <div class="card-body">
+            <figure class="figure tag tag-featured">
+
+            </figure>
+            <img src="image/cards images/image (16).jpg" alt="">
+            <div class="borderLeft padd-left">
+              <h4>Rs 49,500</h4>
+              <p>Lorem ipsum dolor sit am.</p>
+              <p class="last">
+                Mar 23
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-md-3 col-lg-3 pt-4">
+        <div class="card">
+          <div class="card-body blue ">
+            <h2>Want to see your stuff here?</h2>
+            <p class="blueCenter">
+              Make some extra cash by selling things <br> in your community. Go on, it's quick <br> and easy.
+              <br>
+            </p>
+            <button>
+              Start Selling
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-md-3 col-lg-3 pt-4">
+        <div class="card">
+          <div class="card-body">
+            <figure class="figure tag tag-featured">
+
+            </figure>
+            <img src="image/cards images/image (18).jpg" alt="">
+            <div class="borderLeft padd-left">
+              <h4>Rs 49,500</h4>
+              <p>Lorem ipsum dolor sit am.</p>
+              <p class="last">
+                Mar 23
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-md-3 col-lg-3 pt-4 ">
+        <div class="card">
+          <div class="card-body">
+            <figure class="figure tag tag-featured">
+
+            </figure>
+            <img src="image/cards images/image (19).jpg" alt="">
+            <div class="borderLeft padd-left">
+              <h4>Rs 49,500</h4>
+              <p>Lorem ipsum dolor sit am.</p>
+              <p class="last">
+                Mar 23
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-md-3 col-lg-3 pt-4">
+        <div class="card">
+          <div class="card-body">
+            <figure class="figure tag tag-featured">
+
+            </figure>
+            <img src="image/cards images/image (20).jpg" alt="">
+            <div class="borderLeft padd-left">
+              <h4>Rs 49,500</h4>
+              <p>Lorem ipsum dolor sit am.</p>
+              <p class="last">
+                Mar 23
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-md-3 col-lg-3 pt-4">
+        <div class="card">
+          <div class="card-body">
+            <figure class="figure tag tag-featured">
+
+            </figure>
+            <img src="image/cards images/image (21).jpg" alt="">
+            <div class="borderLeft padd-left">
+              <h4>Rs 49,500</h4>
+              <p>Lorem ipsum dolor sit am.</p>
+              <p class="last">
+                Mar 23
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-md-3 col-lg-3 pt-4 ">
+        <div class="card">
+          <div class="card-body">
+            <figure class="figure tag tag-featured">
+
+            </figure>
+            <img src="image/cards images/image (22).jpg" alt="">
+            <div class="borderLeft padd-left">
+              <h4>Rs 49,500</h4>
+              <p>Lorem ipsum dolor sit am.</p>
+              <p class="last">
+                Mar 23
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-md-3 col-lg-3 pt-4">
+        <div class="card">
+          <div class="card-body">
+            <figure class="figure tag tag-featured">
+
+            </figure>
+            <img src="image/cards images/image (23).jpg" alt="">
+            <div class="borderLeft padd-left">
+              <h4>Rs 49,500</h4>
+              <p>Lorem ipsum dolor sit am.</p>
+              <p class="last">
+                Mar 23
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-md-3 col-lg-3 pt-4">
+        <div class="card">
+          <div class="card-body">
+            <figure class="figure tag tag-featured">
+
+            </figure>
+            <img src="image/cards images/image (25).jpg" alt="">
+            <div class="borderLeft padd-left">
+              <h4>Rs 49,500</h4>
+              <p>Lorem ipsum dolor sit am.</p>
+              <p class="last">
+                Mar 23
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-md-3 col-lg-3 pt-4 ">
+        <div class="card">
+          <div class="card-body">
+            <figure class="figure tag tag-featured">
+
+            </figure>
+            <img src="image/cards images/image (24).jpg" alt="">
+            <div class="borderLeft padd-left">
+              <h4>Rs 49,500</h4>
+              <p>Lorem ipsum dolor sit am.</p>
+              <p class="last">
+                Mar 23
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-md-3 col-lg-3 pt-4">
+        <div class="card">
+          <div class="card-body">
+            <figure class="figure tag tag-featured">
+
+            </figure>
+            <img src="image/cards images/image (26).jpg" alt="">
+            <div class="borderLeft padd-left">
+              <h4>Rs 49,500</h4>
+              <p>Lorem ipsum dolor sit am.</p>
+              <p class="last">
+                Mar 23
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-md-3 col-lg-3 pt-4">
+        <div class="card">
+          <div class="card-body">
+            <figure class="figure tag tag-featured">
+
+            </figure>
+            <img src="image/cards images/image (28).jpg" alt="">
+            <div class="borderLeft padd-left">
+              <h4>Rs 49,500</h4>
+              <p>Lorem ipsum dolor sit am.</p>
+              <p class="last">
+                Mar 23
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-md-3 col-lg-3 pt-4 ">
+        <div class="card">
+          <div class="card-body">
+            <figure class="figure tag tag-featured">
+
+            </figure>
+            <img src="image/cards images/image (29).jpg" alt="">
+            <div class="borderLeft padd-left">
+              <h4>Rs 49,500</h4>
+              <p>Lorem ipsum dolor sit am.</p>
+              <p class="last">
+                Mar 23
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-md-3 col-lg-3 pt-4">
+        <div class="card">
+          <div class="card-body">
+            <figure class="figure tag tag-featured">
+
+            </figure>
+            <img src="image/cards images/image (38).jpg" alt="">
+            <div class="borderLeft padd-left">
+              <h4>Rs 49,500</h4>
+              <p>Lorem ipsum dolor sit am.</p>
+              <p class="last">
+                Mar 23
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-md-3 col-lg-3 pt-4 ">
+        <div class="card">
+          <div class="card-body">
+            <figure class="figure tag tag-featured">
+
+            </figure>
+            <img src="image/cards images/image (31).jpg" alt="">
+            <div class="borderLeft padd-left">
+              <h4>Rs 49,500</h4>
+              <p>Lorem ipsum dolor sit am.</p>
+              <p class="last">
+                Mar 23
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-md-3 col-lg-3 pt-4 ">
+        <div class="card">
+          <div class="card-body">
+            <figure class="figure tag tag-featured">
+
+            </figure>
+            <img src="image/cards images/image (43).jpg" alt="">
+            <div class="borderLeft padd-left">
+              <h4>Rs 49,500</h4>
+              <p>Lorem ipsum dolor sit am.</p>
+              <p class="last">
+                Mar 23
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4 col-md-3 col-lg-3 pt-4 ">
+        <div class="card">
+          <div class="card-body">
+            <figure class="figure tag tag-featured">
+
+            </figure>
+            <img src="image/cards images/image (32).jpg" alt="">
+            <div class="borderLeft padd-left">
+              <h4>Rs 49,500</h4>
+              <p>Lorem ipsum dolor sit am.</p>
+              <p class="last">
+                Mar 23
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <img src="image/add2.PNG" alt="" class="add pb-5 pt-5">
+
+
+  <div class="vertical-menu">
+    <a href="#" class="greater">Categories</a>
+    <a href="#" class="greater">Popular Categories</a>
+    <a href="#" class="greater">Trending Searches</a>
+    <a href="#" class="greater">About us</a>
+    <a href="#" class="greater">OLX</a>
+    <a href="#" class="greater">Olher Countries</a>
+    <a href="#" class="mIcons">Follow us</a>
+    <span class="mobileLogos">
+      <img
+        src="image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OHB4IiBoZWlnaHQ9IjQ4cHgiIHZpZXdCb3g9IjAgMCAxMDI0IDEwMjQiIGRhdGEtYXV0LWlkPSJpY29uIiBjbGFzcz0iIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoI.svg"
+        alt="">
+      <img
+        src="image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OHB4IiBoZWlnaHQ9IjQ4cHgiIHZpZXdCb3g9IjAgMCAxMDI0IDEwMjQiIGRhdGEtYXV0LWlkPSJpY29uIiBjbGFzcz0iIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwY (3).svg"
+        alt="">
+      <img
+        src="image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OHB4IiBoZWlnaHQ9IjQ4cHgiIHZpZXdCb3g9IjAgMCAxMDI0IDEwMjQiIGRhdGEtYXV0LWlkPSJpY29uIiBjbGFzcz0iIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwY (1).svg"
+        alt="">
+      <img
+        src="image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OHB4IiBoZWlnaHQ9IjQ4cHgiIHZpZXdCb3g9IjAgMCAxMDI0IDEwMjQiIGRhdGEtYXV0LWlkPSJpY29uIiBjbGFzcz0iIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwY (2).svg"
+        alt="">
+    </span>
+  </div>
+  <div class="mobileFooter">
+    <img src="image/appstore.png" alt="">
+    <img src="image/playstore.png" alt="">
+  </div>
+
+  <div class="mobileCopyright">
+    <p>
+      <strong>Free Classifieds in Pakistan . </strong>
+      © 2006-2021 OLX
+    </p>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer bg-light ">
+    <div class="container">
+      <div class="row">
+        <div class="col-3 ">
+          <img src="image/phone-app.png" alt="" width="100%">
+        </div>
+
+
+
+        <div class="col-1 pt-5 rightBorder  ">
+          <h1 class="ms-5">
+            TRY THE OLX APP
+          </h1>
+          <p class="ms-5">
+            Buy, sell and find just about anything using the app on your mobile.
+          </p>
+        </div>
+        <div class="col-3 pt-5 ps-4 app">
+          <h6>
+            GET YOUR APP TODAY
+          </h6>
+          <img src="image/playstore_2x.png" alt="" width="100px">
+          <img src="image/appstore_2x.png" alt="" width="100px">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <footer class="bg-light">
+    <div class="container lFooter">
+      <div class="row">
+        <div class="col-9">
+          <ul class=" pt-3 ">
+            <li><strong>POPULAR CATEGORIES</strong></li>
+            <li>Cars</li>
+            <li>Flats for rent</li>
+            <li>Jobs</li>
+            <li>Mobile Phones</li>
+          </ul>
+
+          <ul class=" pt-3">
+            <li><strong>TRENDING SEARCHES</strong></li>
+            <li>BIkes</li>
+            <li>Watches</li>
+            <li>Books</li>
+            <li>Dogs</li>
+          </ul>
+          <ul class="pt-3">
+            <li><strong>ABOUT US</strong></li>
+            <li>About OLX Group</li>
+            <li>OLX Blog</li>
+            <li>Contact Us</li>
+            <li>OLX for Buisinesses</li>
+          </ul>
+          <ul class="pt-3">
+            <li><strong>OLX</strong></li>
+            <li>Help</li>
+            <li>Sitemap</li>
+            <li>Legal & Privacy information</li>
+          </ul>
+        </div>
+
+        <div class="col-3">
+          <h4 class="mt-4 ">FOLLOW US</h4>
+          <span class="logos">
+            <img
+              src="image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OHB4IiBoZWlnaHQ9IjQ4cHgiIHZpZXdCb3g9IjAgMCAxMDI0IDEwMjQiIGRhdGEtYXV0LWlkPSJpY29uIiBjbGFzcz0iIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoI.svg"
+              alt="">
+            <img
+              src="image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OHB4IiBoZWlnaHQ9IjQ4cHgiIHZpZXdCb3g9IjAgMCAxMDI0IDEwMjQiIGRhdGEtYXV0LWlkPSJpY29uIiBjbGFzcz0iIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwY (3).svg"
+              alt="">
+            <img
+              src="image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OHB4IiBoZWlnaHQ9IjQ4cHgiIHZpZXdCb3g9IjAgMCAxMDI0IDEwMjQiIGRhdGEtYXV0LWlkPSJpY29uIiBjbGFzcz0iIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwY (1).svg"
+              alt="">
+            <img
+              src="image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OHB4IiBoZWlnaHQ9IjQ4cHgiIHZpZXdCb3g9IjAgMCAxMDI0IDEwMjQiIGRhdGEtYXV0LWlkPSJpY29uIiBjbGFzcz0iIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwY (2).svg"
+              alt="">
+          </span>
+          <br>
+          <img src="image/appstore.png" alt="">
+          <img src="image/playstore.png" alt="">
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="copyright bg-dark p-2 pb-0  mb-0">
+    <div class="container">
+
+      <strong class="ps-5">
+        Other countries
+      </strong> &nbsp; &nbsp; &nbsp;
+      <a href="#">India - </a><a href="#">South Africa - </a><a href="#">Indonesia</a>
+
+      <p class=" d-inline-block ">Free Classifieds in Pakistan. © 2006-2021 OLX</p>
+    </div>
+  </div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
